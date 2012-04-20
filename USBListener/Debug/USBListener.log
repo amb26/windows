@@ -1,0 +1,29 @@
+﻿Build started 18/04/2012 05:09:55.
+     1>Project "E:\Source\gits\gpii\node_modules\windows\USBListener\USBListener.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GpiiUsbListener.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         E:\programs\vcevilexpress\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\GpiiUsbListener.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\programs\vcevilexpress\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\GpiiUsbListener.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt USBListener.cpp
+         USBListener.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\programs\vcevilexpress\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Source\gits\gpii\node_modules\windows\USBListener\Debug\GpiiUsbListener.exe" /INCREMENTAL:NO /NOLOGO curllib.lib user32.lib /MANIFEST /ManifestFile:"Debug\GpiiUsbListener.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Source\gits\gpii\node_modules\windows\USBListener\Debug\GpiiUsbListener.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Source\gits\gpii\node_modules\windows\USBListener\Debug\GpiiUsbListener.lib" /MACHINE:X86 Debug\USBListener.res
+         Debug\stdafx.obj
+         Debug\USBListener.obj
+         lib\libcurld_imp.lib
+     1>stdafx.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         USBListener.vcxproj -> E:\Source\gits\gpii\node_modules\windows\USBListener\Debug\GpiiUsbListener.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Source\gits\gpii\node_modules\windows\USBListener\Debug\GpiiUsbListener.exe;#1" /manifest Debug\GpiiUsbListener.exe.intermediate.manifest E:\programs\vcevilexpress\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\GpiiUsbListener.unsuccessfulbuild".
+         Touching "Debug\GpiiUsbListener.lastbuildstate".
+     1>Done Building Project "E:\Source\gits\gpii\node_modules\windows\USBListener\USBListener.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98

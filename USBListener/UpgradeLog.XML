@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="USBListener">
+</Property><Property Name="Solution File" Value="E:\Source\gits\gpii\node_modules\windows\USBListener\USBListener.sln">
+</Property><Property Name="Date" Value="18 April 2012">
+</Property><Property Name="Time" Value="03:34">
+</Property></Properties><Event ErrorLevel="0" Project="USBListener" Source="USBListener.vcproj" Description="Converting project file 'E:\Source\gits\gpii\node_modules\windows\USBListener\USBListener.vcproj'.">
+</Event><Event ErrorLevel="1" Project="USBListener" Source="USBListener.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="USBListener" Source="USBListener.vcproj" Description="Done converting to new project file 'E:\Source\gits\gpii\node_modules\windows\USBListener\USBListener.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="USBListener" Source="USBListener.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="USBListener.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="USBListener.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,35 @@
+﻿Build started 18/04/2012 05:00:28.
+     1>Project "E:\Source\gits\gpii\node_modules\windows\USBListener\USBListener.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\GpiiUsbListener.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         E:\programs\vcevilexpress\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\GpiiUsbListener.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\programs\vcevilexpress\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\GpiiUsbListener.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt USBListener.cpp
+         USBListener.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Release\USBListener.res" USBListener.rc 
+       Link:
+         E:\programs\vcevilexpress\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Source\gits\gpii\node_modules\windows\USBListener\Release\GpiiUsbListener.exe" /INCREMENTAL:NO /NOLOGO libcurld_imp.lib /MANIFEST /ManifestFile:"Release\GpiiUsbListener.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Source\gits\gpii\node_modules\windows\USBListener\Release\GpiiUsbListener.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Source\gits\gpii\node_modules\windows\USBListener\Release\GpiiUsbListener.lib" /MACHINE:X86 Release\USBListener.res
+         Release\stdafx.obj
+         Release\USBListener.obj
+         lib\libcurld_imp.lib
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__LoadStringW@16
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__LoadAcceleratorsW@8
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__GetMessageW@16
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__TranslateAcceleratorW@12
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__TranslateMessage@4
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__DispatchMessageW@4
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__LoadIconW@8
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__LoadCursorW@8
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__RegisterClassExW@4
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__CreateWindowExW@48
+     1>USBListener.obj : error LNK2001: unresolved external symbol __imp__DefWindowProcW@16
+     1>E:\Source\gits\gpii\node_modules\windows\USBListener\Release\GpiiUsbListener.exe : fatal error LNK1120: 11 unresolved externals
+     1>Done Building Project "E:\Source\gits\gpii\node_modules\windows\USBListener\USBListener.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.01
